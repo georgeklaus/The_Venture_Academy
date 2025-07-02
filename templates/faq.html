@@ -1,0 +1,575 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+        <!--Meanmenu Css-->
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+        <!--Owl carousel-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+        <!--Owl Theme-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+        <!--Magnific-popup-->
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+        <!--Flaticon-->
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+        <!--Remixicon-->
+        <link rel="stylesheet" href="{% static 'assets/css/remixicon.css' %}">
+        <!--Odometer-->
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+        <!--Aos css-->
+        <link rel="stylesheet" href="{% static 'assets/css/aos.css' %}">
+        <!--Style css-->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        <!--Dark css-->
+        <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+        <!--Responsive css-->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <title>The Venture Academy</title>
+        <link rel="icon" type="image/png" href="{% static 'assets/images/favicon.png' %}">
+    </head>
+    <body>
+
+               <!-- Start: Preloader -->
+        <div id="preloader-section">
+            <div id="preloader">
+                <div id="ctn-preloader" class="ctn-preloader">
+                    <div class="animation-preloader">
+                        <!-- Spinner -->
+                        <div class="spinner"></div>
+                        <!-- Start: Text Loading -->
+                        <div class="txt-loading">
+                            <span data-text-preloader="V" class="letters-loading">V</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                            <span data-text-preloader="n" class="letters-loading">n</span>
+                            <span data-text-preloader="t" class="letters-loading">t</span>
+                            <span data-text-preloader="u" class="letters-loading">u</span>
+                            <span data-text-preloader="r" class="letters-loading">r</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                        </div>
+                        <!-- End: Text Loading -->
+
+                    </div>
+                    <!-- Start: Preloader sides - Model 1 -->
+                    <div class="loader-section section-left"></div>
+                    <div class="loader-section section-right"></div>
+                    <!-- End: Preloader sides - Model 1 -->
+                </div>
+            </div>
+        </div>
+        <!-- End: Preloader -->
+
+        <!--Mouce Cursor-->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+        <!--Mouce Cursor-->
+
+        <!--Start Top Header area-->
+        <div class="top-header-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-9">
+                        <div class="header-left-content">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href=" ">+254 10288476</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i>
+                                    Fri-Sat 8:00 am to 2:00 pm
+                                </li>
+                                 <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href=" "> Ventureeemail@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3">
+                        <div class="header-right-content">
+                            <div class="social-content">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Top Header area-->
+
+        <!-- Start Navbar Area --> 
+        <div class="navbar-area">
+            <div class="mobile-responsive-nav">
+                <div class="container">
+                    <div class="mobile-responsive-menu">
+                        <div class="logo">
+                            <a href=" ">
+                                <img src="{% static 'assets/images/favicon.png' %}" class="logo-icon-1" alt="logo">
+                                <img src="{% static 'assets/images/favicon-2.png' %}" class="logo-icon-2" alt="logo">
+                                <img src="{% static 'assets/images/logo.png' %}" class="main-logo" alt="logo">
+                                <img src="{% static 'assets/images/white-logo.png'%}" class="white-logo" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="desktop-nav">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                       
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Home            
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href=" {% url 'index' %}" class="nav-link">Home page</a>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{% url 'about-us' %" class="nav-link">About Us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Pages 
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Team 
+                                            </a>
+        
+                                            <ul class="dropdown-menu">
+                                                
+                                                <li class="nav-item">
+                                                    <a href="{% url 'team' %}" class="nav-link">Teams</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="{% url 'testimonials' %}" class="nav-link">Success Stories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="{% url 'faq' %}" class="nav-link">FAQ</a>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Users 
+                                            </a>
+        
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="{% url 'login' %}" class="nav-link">Login</a>
+                                                </li>
+        
+                                                <li class="nav-item">
+                                                    <a href="{% url 'register' %}" class="nav-link">Register</a>
+                                                </li>
+
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="{% url 'contact' %}" class="nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+
+                            <div class="others-options">
+                                <div class="option-item">
+                                    <a href="{% url 'contact' %}" class="default-btn btn style-2">Get In Touch <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="option-item">
+                                    <div class="switch-box">
+                                        <label id="switch" class="switch">
+                                            <input type="checkbox" onchange="toggleTheme()" id="slider">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="others-options">
+                                <div class="option-item">
+                                    <a href="{% url 'contact' %}" class="default-btn btn style-2">Get In Touch</a>
+                                </div>
+                                <div class="option-item">
+                                    <div class="switch-box">
+                                        <label id="switch2" class="switch">
+                                            <input type="checkbox" onchange="toggleTheme()" id="slider2">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+
+        <!--Start Page Banner area-->
+        <div class="page-banner-area bg-f0f0f0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="page-banner-content">
+                            <h1>FAQ's</h1>
+                            <ul>
+                                <li><a href="{% url 'index' %}">Home</a></li>
+                                <li>FAQ's</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="page-banner-image">
+                            <img src="{% static 'assets/images/page-banner/page-banner-image-14.png' %}" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Page Banner area-->
+
+        <!--Start Faq Area-->
+        <div class="faq-area ptb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="faq-image">
+                            <img src="{% static 'assets/images/faq-img.jpg' %}" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="faq-accordion-content">
+                            <div class="faq-accordion">
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            1: What programs does Venture Academy offer??
+                                        </div>
+            
+                                        <div class="accordion-content show">
+                                            <p> We provide world-class training in:</p>
+                                            <ul>
+                                                <li>Football (FIFA-certified coaching)</li>
+                                                <li> Swimming (Olympic-standard programs)</li>
+                                                <li> Chess (Grandmaster-led strategy)</li>
+                                                <li> Ballet (Professional Vaganova method)</li>
+                                                <li> Taekwondo (Black belt instructors)</li>
+                                                <li> Skill Development Workshops (Nutrition, mental resilience)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            2: What age groups do you accept?
+                                        </div>
+            
+                                        <div class="accordion-content show">
+                                            <p> Our programs cater to:</p>
+                                            <ul>
+                                                <li>Junior Division: 6–12 years (foundational skills)</li>
+                                                <li> Competitive Division: 13–18 years (elite training)</li>
+                                                <li> Specialized programs available for young adults (18–21) in select sports.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+            
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            3:  How are your coaches qualified?
+                                        </div>
+            
+                                        <div class="accordion-content show">
+                                            <p> All coaches:</p>
+                                            <ul>
+                                                <li> Undergo annual child safety trainin</li>
+                                                <li> Have competitive experience (70% are former national athletes)</li>
+                                                <li> Trained in youth development psychology</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            4: What’s included in the program fees?
+                                        </div>
+            
+                                        <div class="accordion-content show">
+                                            <p> Fees cover:</p>
+                                            <ul>
+                                                <li>Professional coaching (3–5 sessions/week)</li>
+                                                <li> Facility access (pools, fields, studios)</li>
+                                                <li>Biometric performance tracking </li>
+                                                <li> Competition entry for elite students</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            5: How do scholarships work?
+                                        </div>
+            
+                                        <div class="accordion-content show">
+                                            <p> Our Talent Excellence Scholarship provides:</p>
+                                            <ul>
+                                                <li>Eligibility: Demonstrated skill + financial need</li>
+                                                <li> Assessment: Annual tryouts every March</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title active">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            6: What safety measures are in place?
+                                        </div>
+
+                                        <div class="accordion-content show">
+                                            <p> We prioritize safety with:</p>
+                                            <ul>
+                                                <li>Certified first-aid staff at all facilities</li>
+                                                <li> 1:8 coach-to-student ratio in water sports</li>
+                                                <li> Anti-bullying policy with anonymous reporting</li>
+                                                <li> Mandatory equipment checks for martial arts</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-title">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                            7:How do I apply?
+                                        </div>
+            
+                                        <div class="accordion-content">
+                                            <p> 5-step enrollment:</p>
+                                            <ul>
+                                                <li> Visit our website and click enroll me fill out the online application form.</li>
+                                                <li> Submit a recent photo and a brief personal statement.</li>
+                                                <li> Applications are reviewed within a short time</li>
+                                                <li> Selected candidates will be contacted as soon as possible</li>
+                                                <li> Candidates must undergo a skill Assessment to evaluate their current abilities and determine the best fit for our programs</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Faq Area-->
+
+        <!--Start Footer Area-->
+        <div class="footer-area bg-1 pt-100">
+            <div class="container">
+                <div class="footer-content pb-50">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget contact-info">
+                                <h3>Contact With Us</h3>
+                                <ul>
+                                    <li>
+                                        <span>Address</span>
+                                        <p>LakeWood Vantage School,
+                                            Kamakis</p>
+                                    </li>
+                                    <li>
+                                        <span>Call Us</span>
+                                        <a href="+254 102881146"> +254 102881146</a>
+                                    </li>
+                                    <li>
+                                        <span>Mail Us</span>
+                                        <a href=" ">I will Put the Venture Academy Email</a>
+                                    </li>
+                                </ul>
+                                <div class="social-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget quick-links">
+                                <h3>Quick Links</h3>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul>
+                                            <li>
+                                                <a href="{% url 'index' %}">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'about-us' %}">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'faq' %}">FAQ's</a>
+                                            </li>
+                                          
+                                         
+                                           
+                                            <li>
+                                                <a href="{% url 'team' %}">Meet Our Team</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                           
+                                        
+                                            <li>
+                                                <a href="{% url 'contact' %}">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'testimonials' %}">Success Stories</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Enrol Now</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget subscribe">
+                                <h3>Enroll Now</h3>
+                                <span>Get Us In The Inbox And Get The Best Implementation!</span>
+                                <p> mmmmmmmmmm</p>
+    
+                                <div class="subscribe-form">
+                                    <form class="newsletter-form" data-toggle="validator">
+                                        <input type="email" class="form-control" placeholder="Enter your email or password" name="EMAIL" required autocomplete="off">
+                            
+                                        <button class="default-btn active" type="submit">
+                                            Enroll Now <i class="ri-arrow-right-line"></i>
+                                        </button>
+                            
+                                        <div id="validator-newsletter" class="form-result"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <p>© <span>Venture</span> is Proudly Owned by <a href="  " target="_blank">Venture Academy</a></p>
+                </div>
+            </div>
+        </div>
+        <!--End Footer Area-->
+
+        <!-- Start Go Top Area -->
+        <div class="go-top">
+            <i class="fas fa-arrow-up"></i>
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <!-- End Go Top Area -->
+
+
+        <!-- Jquery js -->
+        <script data-cfasync="false" src="{% static '/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <!-- Bootstrap bundle js -->
+        <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+        <!-- Meanmenu js -->
+        <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
+        <!-- Owl Carosel js -->
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+        <!-- Owl Carosel Thumbs js -->
+        <script src="{% static 'assets/js/carousel-thumbs.min.js' %}"></script>
+        <!-- Magnific popup js -->
+        <script src="{% static 'assets/js/jquery.magnific-popup.js' %}"></script>
+        
+        <!-- Aos js -->
+        <script src="{% static 'assets/js/aos.js' %}"></script>
+        <!-- Mixitup js -->
+        <script src="{% static 'assets/js/mixitup.min.js' %}"></script>
+        <!-- Scrollmagic js -->
+        <script src="{% static 'assets/js/scrollmagic.min.js' %}"></script>
+        <!-- Gsap js -->
+        <script src="{% static 'assets/js/animation.gsap.min.js' %}"></script>
+        <!-- Debug js -->
+        <script src="{% static 'assets/js/debug.addIndicators.min.js' %}"></script>
+        <!-- Tweenmax js -->
+        <script src="{% static 'assets/js/tweenmax.min.js' %}"></script>
+        <!--Progresscircle-->
+        <script src="{% static 'assets/js/progresscircle.min.js' %}"></script>
+        <!-- Odometer js -->    
+        <script src="{% static 'assets/js/odometer.min.js' %}"></script>
+        <!--Progresscircle-->
+        <link rel="stylesheet" href="{% static 'assets/css/progresscircle.min.css' %}">
+        <!-- Appear js -->  
+        <script src="{% static 'assets/js/appear.min.js' %}"></script> 
+        <!-- Form Validator js -->    
+        <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+        <!-- Contact Form Script js -->    
+        <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+        <!-- Ajaxchimp js -->    
+        <script src="{% static 'assets/js/ajaxchimp.min.js' %}"></script>
+        <!--Custom js-->
+        <script src="{% static 'assets/js/custom.js' %}"></script>
+        
+    </body>
+</html>

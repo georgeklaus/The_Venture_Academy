@@ -1,0 +1,571 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+        <!--Meanmenu Css-->
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+        <!--Owl carousel-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+        <!--Owl Theme-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+        <!--Magnific-popup-->
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+        
+        <!--Flaticon-->
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+        <!--Remixicon-->
+        <link rel="stylesheet" href="{% static 'assets/css/remixicon.css' %}">
+        <!--Odometer-->
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+        <!--Aos css-->
+        <link rel="stylesheet" href="{% static 'assets/css/aos.css' %}">
+        <!--Style css-->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        <!--Dark css-->
+        <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+        <!--Responsive css-->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <title>The Venture Academy</title>
+    </head>
+    <body>
+
+
+              <!-- Start: Preloader -->
+        <div id="preloader-section">
+            <div id="preloader">
+                <div id="ctn-preloader" class="ctn-preloader">
+                    <div class="animation-preloader">
+                        <!-- Spinner -->
+                        <div class="spinner"></div>
+                        <!-- Start: Text Loading -->
+                        <div class="txt-loading">
+                            <span data-text-preloader="V" class="letters-loading">V</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                            <span data-text-preloader="n" class="letters-loading">n</span>
+                            <span data-text-preloader="t" class="letters-loading">t</span>
+                            <span data-text-preloader="u" class="letters-loading">u</span>
+                            <span data-text-preloader="r" class="letters-loading">r</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                        </div>
+                        <!-- End: Text Loading -->
+
+                    </div>
+                    <!-- Start: Preloader sides - Model 1 -->
+                    <div class="loader-section section-left"></div>
+                    <div class="loader-section section-right"></div>
+                    <!-- End: Preloader sides - Model 1 -->
+                </div>
+            </div>
+        </div>
+        <!-- End: Preloader -->
+
+        <!--Mouce Cursor-->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+        <!--Mouce Cursor-->
+
+        <!--Start Top Header area-->
+        <div class="top-header-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-9">
+                        <div class="header-left-content">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href=" ">+254 10288476</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i>
+                                    Fri-Sat 8:00 am to 2:00 pm
+                                </li>
+                                 <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href=" "> Ventureeemail@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3">
+                        <div class="header-right-content">
+                            <div class="social-content">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Top Header area-->
+
+        <!-- Start Navbar Area --> 
+        <div class="navbar-area">
+            <div class="mobile-responsive-nav">
+                <div class="container">
+                    <div class="mobile-responsive-menu">
+                        <div class="logo">
+                            <a href=" ">
+                                <img src="{% static 'assets/images/favicon.png' %}" class="logo-icon-1" alt="logo">
+                                <img src="{% static 'assets/images/favicon-2.png' %}" class="logo-icon-2" alt="logo">
+                                <img src="{% static 'assets/images/logo.png' %}" class="main-logo" alt="logo">
+                                <img src="{% static 'assets/images/white-logo.png' %}" class="white-logo" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desktop-nav">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                       
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Home            
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href=" {% url 'index' %}" class="nav-link">Home page</a>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{% url 'about-us' %}" class="nav-link">About Us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Pages 
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Team 
+                                            </a>
+        
+                                            <ul class="dropdown-menu">
+                                                
+                                                <li class="nav-item">
+                                                    <a href="{% url 'team' %}" class="nav-link">Teams</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="{% url 'testimonials' %}" class="nav-link">Success Stories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="{% url 'faq' %}" class="nav-link">FAQ</a>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Users 
+                                            </a>
+        
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="{% url 'login' %}" class="nav-link">Login</a>
+                                                </li>
+        
+                                                <li class="nav-item">
+                                                    <a href="{% url 'register' %}" class="nav-link">Register</a>
+                                                </li>
+
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="{% url 'contact' %}" class="nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+
+                            <div class="others-options">
+                                <div class="option-item">
+                                    <a href="{% url 'contact' %}" class="default-btn btn style-2">Get In Touch <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="option-item">
+                                    <div class="switch-box">
+                                        <label id="switch" class="switch">
+                                            <input type="checkbox" onchange="toggleTheme()" id="slider">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="others-options">
+                                <div class="option-item">
+                                    <a href="{% url 'contact' %}" class="default-btn btn style-2">Get In Touch</a>
+                                </div>
+                                <div class="option-item">
+                                    <div class="switch-box">
+                                        <label id="switch2" class="switch">
+                                            <input type="checkbox" onchange="toggleTheme()" id="slider2">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <!--Start Page Banner area-->
+        <div class="page-banner-area bg-f0f0f0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="page-banner-content">
+                            <h1>Contact Us</h1>
+                            <ul>
+                                <li><a href="{% url 'index' %}">Home</a></li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="page-banner-image">
+                            <img src="{% static 'assets/images/page-banner/page-banner-image-20.png' %}" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Page Banner area-->
+
+        <!--Start Contact Area-->
+        <div class="contact-area pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="contact-title">
+                            <span>Reach Out</span>
+                            <h2>For more Info, Get In Touch With Venture Academy<span class="overlay"></span></h2>
+                            <p> Have questions about our programs or enrollment? Our team is ready to guide you through every step of your journey.</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7">
+                                <div class="single-contact-item style2">
+                                    <div class="icon">
+                                        <i class="fas fa-flag-checkered"></i>
+                                    </div>
+                                    <h4>Location</h4>
+                                    <span>LakeWood Vantage School, </span>
+                                       Kamakis, Nairobi, Kenya </span>
+                                </div>
+                                <div class="single-contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <h4>Call Us</h4>
+                                    <a href=" "> 254 102881146</a>
+                                    <a href=" "> 254 102881146</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5">
+                                <div class="single-contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-envelope-open-text"></i>
+                                    </div>
+                                    <h4>Email Address</h4>
+                                    <a href=" "> ventureacademy@gmail.com</span></a>
+                                    <a href=" "> ventureacademy@gmail.com</span></a>
+                                </div>
+                                <div class="single-contact-item">
+                                    <div class="icon">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
+                                    <h4>Office open</h4>
+                                    <span>Mon- Sun (08AM - 03PM)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="follow-content">
+                            <div class="social-content">
+                                <ul>
+                                    <li><span>Follow Us</span></li>
+                                   <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="contact-form">
+                            <form method="POST" action="{% url 'contact' %}">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Name *" id="name" class="form-control" required data-error="Please enter your name">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+            
+                                <div class="form-group">
+                                    <input type="email" name="email" id="email" placeholder="Email*" class="form-control" required data-error="Please enter your email">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+            
+                                <div class="form-group">
+                                    <input type="text" name="phone_number" id="phone_number" placeholder="Number*" required data-error="Please enter your number" class="form-control">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+            
+                                <div class="form-group">
+                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" placeholder="Subject*" required data-error="Please enter your subject">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+            
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" placeholder="Message*" id="message" cols="30" rows="4" required data-error="Write your message"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input
+                                            name="gridCheck"
+                                            value="I agree to the terms and privacy policy."
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="gridCheck"
+                                            required
+                                        >
+                                        <label class="form-check-label" for="gridCheck">
+                                            I agree to the <a href=" ">terms</a> and <a href=" ">privacy policy</a>
+                                        </label>
+                                        <div class="help-block with-errors gridCheck-error"></div>
+                                    </div>
+                                </div>
+
+                
+                                <div class="col-lg-12 col-md-12">
+                                    <button type="submit" class="default-btn active">
+                                        <span>Send Message</span>
+                                    </button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Contact Area-->
+
+     <!--Start Footer Area-->
+        <div class="footer-area bg-1 pt-100">
+            <div class="container">
+                <div class="footer-content pb-50">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget contact-info">
+                                <h3>Contact With Us</h3>
+                                <ul>
+                                    <li>
+                                        <span>Address</span>
+                                        <p>LakeWood Vantage School,
+                                            Kamakis</p>
+                                    </li>
+                                    <li>
+                                        <span>Call Us</span>
+                                        <a href=" "> +254 102881146</a>
+                                    </li>
+                                    <li>
+                                        <span>Mail Us</span>
+                                          <p>
+                                            <a href="mailto:{{ settings.CONTACT_EMAIL }}">{{ settings.CONTACT_EMAIL }}</a>
+                                          </p>
+                                    </li>
+                                </ul>
+                                <div class="social-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget quick-links">
+                                <h3>Quick Links</h3>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul>
+                                            <li>
+                                                <a href="{% url 'index' %}">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'about-us' %}">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'faq' %}">FAQ's</a>
+                                            </li>
+                                          
+                                         
+                                           
+                                            <li>
+                                                <a href="{% url 'team' %}">Meet Our Team</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                           
+                                        
+                                            <li>
+                                                <a href="{% url 'contact' %}">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'testimonials' %}">Success Stories</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Enrol Now</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget subscribe">
+                                <h3>Enroll Now</h3>
+                                <span>Get Us In The Inbox And Get The Best Implementation!</span>
+                                  <p> Don't be left behind!</p>
+    
+                                <div class="subscribe-form">
+                                    <form class="newsletter-form" data-toggle="validator">
+                                        <input type="email" class="form-control" placeholder="Enter your email or password" name="EMAIL" required autocomplete="off">
+                            
+                                        <button class="default-btn active" type="submit">
+                                            Enroll Now <i class="ri-arrow-right-line"></i>
+                                        </button>
+                            
+                                        <div id="validator-newsletter" class="form-result"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <p>© <span>Venture</span> is Proudly Owned by <a href="  " target="_blank">Venture Academy</a></p>
+                </div>
+            </div>
+        </div>
+        <!--End Footer Area-->
+
+        <!-- Start Go Top Area -->
+        <div class="go-top">
+            <i class="fas fa-arrow-up"></i>
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <!-- End Go Top Area -->
+
+
+        <!-- Jquery js -->
+        <script data-cfasync="false" src="{% static '/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <!-- Bootstrap bundle js -->
+        <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+        <!-- Meanmenu js -->
+        <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
+        <!-- Owl Carosel js -->
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+        <!-- Owl Carosel Thumbs js -->
+        <script src="{% static 'assets/js/carousel-thumbs.min.js' %}"></script>
+        <!-- Magnific popup js -->
+        <script src="{% static 'assets/js/jquery.magnific-popup.js' %}"></script>
+        
+        <!-- Aos js -->
+        <script src="{% static 'assets/js/aos.js' %}"></script>
+        <!-- Mixitup js -->
+        <script src="{% static 'assets/js/mixitup.min.js' %}"></script>
+        <!-- Scrollmagic js -->
+        <script src="{% static 'assets/js/scrollmagic.min.js' %}"></script>
+        <!-- Gsap js -->
+        <script src="{% static 'assets/js/animation.gsap.min.js' %}"></script>
+        <!-- Debug js -->
+        <script src="{% static 'assets/js/debug.addIndicators.min.js' %}"></script>
+        <!-- Tweenmax js -->
+        <script src="{% static 'assets/js/tweenmax.min.js' %}"></script>
+        <!--Progresscircle-->
+        <script src="{% static 'assets/js/progresscircle.min.js' %}"></script>
+        <!-- Odometer js -->    
+        <script src="{% static 'assets/js/odometer.min.js' %}"></script>
+        <!--Progresscircle-->
+        <link rel="stylesheet" href="{% static 'assets/css/progresscircle.min.css' %}">
+        <!-- Appear js -->  
+        <script src="{% static 'assets/js/appear.min.js' %}"></script> 
+        <!-- Form Validator js -->    
+        <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+        <!-- Contact Form Script js -->    
+        <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+        <!-- Ajaxchimp js -->    
+        <script src="{% static 'assets/js/ajaxchimp.min.js' %}"></script>
+        <!--Custom js-->
+        <script src="{% static 'assets/js/custom.js' %}"></script>
+        
+    </body>
+</html>

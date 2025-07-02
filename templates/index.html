@@ -1,0 +1,1235 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+        <!--Meanmenu Css-->
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+        <!--Owl carousel-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+        <!--Owl Theme-->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+        <!--Magnific-popup-->
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+        
+        <!--Flaticon-->
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+        <!--Remixicon-->
+        <link rel="stylesheet" href="{% static 'assets/css/remixicon.css' %}">
+        <!--Odometer-->
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+        <!--Aos css-->
+        <link rel="stylesheet" href="{% static 'assets/css/aos.css' %}">
+        <!--Style css-->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        <!--Dark css-->
+        <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+        <!--Responsive css-->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <title>The Venture Academy</title>
+    </head>
+    <body>
+
+        <!-- Start: Preloader -->
+        <div id="preloader-section">
+            <div id="preloader">
+                <div id="ctn-preloader" class="ctn-preloader">
+                    <div class="animation-preloader">
+                        <!-- Spinner -->
+                        <div class="spinner"></div>
+                        <!-- Start: Text Loading -->
+                        <div class="txt-loading">
+                            <span data-text-preloader="V" class="letters-loading">V</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                            <span data-text-preloader="n" class="letters-loading">n</span>
+                            <span data-text-preloader="t" class="letters-loading">t</span>
+                            <span data-text-preloader="u" class="letters-loading">u</span>
+                            <span data-text-preloader="r" class="letters-loading">r</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                        </div>
+                        <!-- End: Text Loading -->
+
+                    </div>
+                    <!-- Start: Preloader sides - Model 1 -->
+                    <div class="loader-section section-left"></div>
+                    <div class="loader-section section-right"></div>
+                    <!-- End: Preloader sides - Model 1 -->
+                </div>
+            </div>
+        </div>
+        <!-- End: Preloader -->
+
+        <!--Mouce Cursor-->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+        <!--Mouce Cursor-->
+
+        <!--Start Top Header area-->
+        <div class="top-header-area">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-9">
+                        <div class="header-left-content">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href=" ">+254 10288476</a>
+                                </li>
+                                <li>
+                                    <i class="far fa-clock"></i>
+                                    Fri-Sat 8:00 am to 2:00 pm
+                                </li>
+                                 <li>
+                                    <i class="far fa-calendar-alt"></i>
+                                    <a href=" "> Ventureeemail@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3">
+                        <div class="header-right-content">
+                            <div class="social-content">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Top Header area-->
+
+        <!-- Start Navbar Area --> 
+        <div class="navbar-area">
+            <div class="mobile-responsive-nav">
+                <div class="container">
+                    <div class="mobile-responsive-menu">
+                        <div class="logo">
+                            <a href=" ">
+                                <img src="{% static 'assets/images/favicon.png' %}" class="logo-icon-1" alt="logo">
+                                <img src="{% static 'assets/images/favicon-2.png' %}" class="logo-icon-2" alt="logo">
+                                <img src="{% static 'assets/images/logo.png' %}" class="main-logo" alt="logo">
+                                <img src="{% static 'assets/images/white-logo.png' %}" class="white-logo" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="desktop-nav">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                       
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Home            
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href=" {% url 'index' %}" class="nav-link">Home page</a>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{% url 'about-us' %}" class="nav-link">About Us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Pages 
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Team 
+                                            </a>
+        
+                                            <ul class="dropdown-menu">
+                                                
+                                                <li class="nav-item">
+                                                    <a href="{% url 'team' %}" class="nav-link">Teams</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="{% url 'testimonials' %}" class="nav-link">Success Stories</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="{% url 'faq' %}" class="nav-link">FAQ</a>
+                                        </li>
+                                       
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Users 
+                                            </a>
+        
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a href="{% url 'login' %}" class="nav-link">Login</a>
+                                                </li>
+        
+                                                <li class="nav-item">
+                                                    <a href="{% url 'register' %}" class="nav-link">Register</a>
+                                                </li>
+
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a href="{% url 'contact' %}" class="nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+
+                            <div class="others-options">
+                                <div class="option-item">
+                                    <a href="{% url 'contact' %}" class="default-btn btn style-2">Get In Touch <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                                <div class="option-item">
+                                    <div class="switch-box">
+                                        <label id="switch" class="switch">
+                                            <input type="checkbox" onchange="toggleTheme()" id="slider">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="others-options">
+                                <div class="option-item">
+                                    <a href="{% url 'contact' %}" class="default-btn btn style-2">Get In Touch</a>
+                                </div>
+                                <div class="option-item">
+                                    <div class="switch-box">
+                                        <label id="switch2" class="switch">
+                                            <input type="checkbox" onchange="toggleTheme()" id="slider2">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <!--Start Banner Area-->
+        <div class="banner-area">
+            <div class="banner-slider owl-carousel owl-theme">
+                <div class="banner-slider-item bg-1">
+                    <div class="container-fluid">
+                        <div class="banner-content">
+                            <span>Welcome To Venture Academy</span>
+                            <h1>Empowering Young Talents • Fostering Growth • Building Champions <span class="overlay"></span></h1>
+                            <p>Venture Academy is East Africa's premier sports and talent development hub. We nurture young athletes through world-class training in football, swimming, taekwondo, chess, ballet and 10+ disciplines across our state-of-the-art facilities.</p>
+                            <div class="apply-content">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-img">
+                                            <ul>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-1.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-2.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-3.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-4.png' %}" alt="Image"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-text">
+                                            <span>Join Our 500+ Talented Students Explore Programs </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-btn">
+                                            <a class="default-btn active" 
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSfWa4skGBr4tAjh-7syRTSAgcb9P5BRK1iAoaagTi6YMPFjUA/viewform" 
+                                            target="_blank"
+                                            rel="noopener noreferrer">Enroll Me <i class="fas fa-arrow-right"></i>   
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-slider-item bg-2">
+                    <div class="container-fluid">
+                        <div class="banner-content">
+                            <span>Welcome To Venture Academy</span>
+                            <h1>Empowering Young Talents • Fostering Growth • Building Champions <span class="overlay"></span></h1>
+                            <p> Venture Academy is East Africa's premier sports and talent development hub. We nurture young athletes through world-class training in football, swimming, taekwondo, chess, ballet and 10+ disciplines across our state-of-the-art facilities.</p>
+                            <div class="apply-content">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-img">
+                                            <ul>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-1.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-2.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-3.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-4.png' %}" alt="Image"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-text">
+                                            <span>Join Our 500+ Talented Students Explore Programs </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-btn">
+                                            <a class="default-btn active" 
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSfWa4skGBr4tAjh-7syRTSAgcb9P5BRK1iAoaagTi6YMPFjUA/viewform" 
+                                            target="_blank"
+                                            rel="noopener noreferrer">Enroll Me <i class="fas fa-arrow-right"></i>   
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-slider-item bg-3">
+                    <div class="container-fluid">
+                        <div class="banner-content ">
+                            <span>Welcome To Venture Academy</span>
+                            <h1>Empowering Young Talents • Fostering Growth • Building Champions  <span class="overlay"></span></h1>
+                            <p>Venture Academy is East Africa's premier sports and talent development hub. We nurture young athletes through world-class training in football, swimming, taekwondo, chess, ballet and 10+ disciplines across our state-of-the-art facilities.</p>
+                            <div class="apply-content">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-img">
+                                            <ul>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-1.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-2.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-3.png' %}" alt="Image"></li>
+                                                <li><img src="{% static 'assets/images/banner/sm-img-4.png' %}" alt="Image"></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-text">
+                                            <span>Join Our 500+ Talented Students Explore Programs </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <div class="apply-btn">
+                                            <a class="default-btn active" 
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSfWa4skGBr4tAjh-7syRTSAgcb9P5BRK1iAoaagTi6YMPFjUA/viewform" 
+                                            target="_blank"
+                                            rel="noopener noreferrer">Enroll Me <i class="fas fa-arrow-right"></i>   
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Banner Area-->
+
+        <!--Start Services Area-->
+        <div class="services-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <span>Programs</span>
+                    <h2>Our Core Programs <span class="overlay"></span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="single-services-card">
+                            <div class="services-content">
+                                <div class="icon">
+                                    <i class="fas fa-futbol"></i>
+                                </div>
+                                <h3><a href=" ">Elite Football Training</a></h3>
+                                <p>Premier coaching with FIFA-certified trainers. Includes tactical development, 
+                                fitness conditioning, and competitive tournament opportunities..</p>
+                                <a class="default-btn" href="services-details.html">Read More<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="number">
+                                <span>01</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="single-services-card">
+                            <div class="services-content">
+                                <div class="icon">
+                                    <i class="fas fa-swimmer"></i>
+                                </div>
+                                <h3><a href=" ">Championship Swimming</a></h3>
+                                <p>Olympic-standard coaching with focus on technique, endurance, and competition prep 
+                                 in our FINA-certified pools.</p>
+                                <a class="default-btn" href="services-details.html">Read More<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="number">
+                                <span>02</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="single-services-card">
+                            <div class="services-content">
+                                <div class="icon">
+                                    <i class="fas fa-user-ninja"></i>
+                                </div>
+                                <h3><a href=" ">Taekwondo & Ballet</a></h3>
+                                <p>Discipline-focused martial arts and expressive dance programs developing 
+                                coordination, flexibility, and artistic expression.</p>
+                                <a class="default-btn" href="services-details.html">Read More<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="number">
+                                <span>03</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                        <div class="single-services-card">
+                            <div class="services-content">
+                                <div class="icon">
+                                    <i class="fas fa-chess"></i>
+                                </div>
+                                <h3><a href=" ">Competitive Chess</a></h3>
+                                <p>Grandmaster-led training in tactical thinking, tournament strategy, and cognitive 
+                                 development for all skill levels.</p>
+                                <a class="default-btn" href="services-details.html">Read More<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                            <div class="number">
+                                <span>04</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Services Area-->
+
+        <!--Start About Area-->
+        <div class="about-area pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-img pr-15">
+                            <img src="{% static 'assets/images/about/about-img-1.jpg' %}" class="main-img" alt="Image">
+                            <div class="small-img">
+                                <img src="{% static 'assets/images/about/about-img-2.jpg' %}" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content pl-15">
+                            <div class="about-title">
+                                <span>About Us</span>
+                                <h2>Why Venture Academy Stands Out<span class="overlay"></span></h2>
+                            </div>
+                            <p>At Venture Academy, we ensure every student's journey yields measurable growth. Our holistic approach combines athletic training with skill development workshops in nutrition, mental preparedness, and injury prevention - giving young talents the complete toolkit for success.</p>
+                            <div class="features-list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i>FIFA-Certified Football Training</li>
+                                            <li><i class="ri-check-double-line"></i>Olympic-Standard Swimming Programs </li>
+                                            <li><i class="ri-check-double-line"></i>Grandmaster-Led Chess Curriculum  </li>
+                                            <li><i class="ri-check-double-line"></i> Professional Ballet  </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul>
+                                            <li><i class="ri-check-double-line"></i>Scholarship Pathways for Top Performers </li>
+                                            <li><i class="ri-check-double-line"></i> Community Outreach Initiatives </li>
+                                            <li><i class="ri-check-double-line"></i>Professional Taekwondo Studios</li>
+                                            <li><i class="ri-check-double-line"></i>And more....</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="default-btn active" href="{% url 'about-us' %}">Explore Our Methodology <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End About Area-->
+
+        <!--Start Course Area-->
+        <div class="course-area bg pt-100">
+            <div class="container">
+                <div class="section-title white-title">
+                    <span>Training Course</span>
+                    <h2>Featured Programs Schedule<span class="overlay"></span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="single-course-card">
+                            <div class="course-img">
+                                <a href=" "><img src="{% static 'assets/images/course/course-img-1.jpg' %}" alt="Image"></a>
+                            </div>
+                            <div class="course-content">
+                                <a href=" "><h3>Football Academy</h3></a>
+                                <ul>
+                                    <li>
+                                        <i class="ri-map-pin-user-fill"></i>
+                                        Main Field
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                         Saturday 09:00 am - 02:00 pm
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Ksh 2000/
+                                    </li>
+                                </ul>
+                                <a class="default-btn" href="{% url 'index' %}">Enroll <i class="fas fa-arrow-up "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="single-course-card">
+                            <div class="course-img">
+                                <a href=" "><img src="{% static 'assets/images/course/course-img-2.jpg' %}" alt="Image"></a>
+                            </div>
+                            <div class="course-content">
+                                <a href=" "><h3>Swim Champions </h3></a>
+                                <ul>
+                                    <li>
+                                        <i class="ri-map-pin-user-fill"></i>
+                                        Swimming Pool
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Saturday 09:00 am - 02:00 pm
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Ksh 2000/
+                                    </li>
+                                </ul>
+                                <a class="default-btn" href="{% url 'index' %}">Enroll <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="single-course-card">
+                            <div class="course-img">
+                                <a href=" "><img src="{% static 'assets/images/course/course-img-2.jpg' %}" alt="Image"></a>
+                            </div>
+                            <div class="course-content">
+                                <a href=" "><h3>Taekwondo  </h3></a>
+                                <ul>
+                                    <li>
+                                        <i class="ri-map-pin-user-fill"></i>
+                                        Trainning Area
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Saturday 09:00 am - 02:00 pm
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Ksh 2000/
+                                    </li>
+                                </ul>
+                                <a class="default-btn" href="{% url 'index' %}">Enroll <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="single-course-card">
+                            <div class="course-img">
+                                <a href=" "><img src="{% static 'assets/images/course/course-img-3.jpg' %}" alt="Image"></a>
+                            </div>
+                            <div class="course-content">
+                                <a href=" "><h3>Chess Masters</h3></a>
+                                <ul>
+                                    <li>
+                                        <i class="ri-map-pin-user-fill"></i>
+                                        Our Chess Station
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Saturday 09:00 am - 02:00 pm
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Ksh 2000/
+                                    </li>
+                                </ul>
+                                <a class="default-btn" href="{% url 'index' %}">Enroll <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                        <div class="single-course-card">
+                            <div class="course-img">
+                                <a href=" "><img src="{% static 'assets/images/course/course-img-4.jpg' %}" alt="Image"></a>
+                            </div>
+                            <div class="course-content">
+                                <a href=" "><h3>Ballet Excellence</h3></a>
+                                <ul>
+                                    <li>
+                                        <i class="ri-map-pin-user-fill"></i>
+                                        Ballet Studio
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Saturday 09:00 am - 02:00 pm
+                                    </li>
+                                    <li>
+                                        <i class="ri-time-line"></i>
+                                        Ksh 2000/
+                                    </li>
+                                </ul>
+                                <a class="default-btn" href="{% url 'index' %}">Enroll <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Course Area-->
+
+        <!--Start Schedule Time Area-->
+        <div class="schedule-time-area pt-70 pb-100">
+            <div class="container">
+                <div class="section-title">
+                    <span>Schedule Time</span>
+                    <h2>Set A Time To Practice <span class="overlay"></span></h2>
+                </div>
+                <div class="time-table">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">Routine</th>
+                                <th scope="col">08:00 AM</th>
+                                <th scope="col">12:00 AM</th>
+                                <th scope="col">02:00 PM</th>
+                                <th scope="col">05:00 PM</th>
+                                <th scope="col">04:00 PM</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="serial">
+                                    Friday
+                                </td>
+                                <td class="routin-box">
+                                    <h3>Cycling</h3>
+                                    <span>10 am - 11 am</span>
+                                </td>
+
+                                <td class="blank"></td>
+
+                                <td class="routin-box">
+                                    <h3>Yoga</h3>
+                                    <span>10 am - 11 am</span>
+                                </td>
+
+                                <td class="blank"></td>
+                                <td class="routin-box">
+                                    <h3>Jumping</h3>
+                                    <span>10 am - 11 am</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="serial">
+                                    Satarday
+                                </td>
+                                <td class="routin-box">
+                                    <h3>Ballet</h3>
+                                    <span>08 am - 9:30 am</span>
+                                </td>
+
+                                <td class="routin-box">
+                                    <h3>Swimming</h3>
+                                    <span>10 am - 11 am</span>
+                                </td>
+
+                                <td class="routin-box">
+                                    <h3>Taekwondo</h3>
+                                    <span>11:30 am - 12:30 pm</span>
+                                </td>
+
+                                <td class="routin-box">
+                                    <h3>Chess</h3>
+                                    <span>1 pm - 1:30 pm</span>
+                                </td>
+                                <td class="routin-box">
+                                    <h3>Football</h3>
+                                    <span>2 pm</span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="serial">
+                                    Sunday
+                                </td>
+                                <td class="blank"></td>
+
+                                <td class="routin-box">
+                                    <h3>Karate</h3>
+                                    <span>10 am - 11 am</span>
+                                </td>
+
+                                <td class="blank"></td>
+
+                                <td class="routin-box">
+                                    <h3>Boxing</h3>
+                                    <span>10 am - 11 am</span>
+                                </td>
+
+                                <td class="blank"></td>
+                            </tr>
+
+            
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--End Schedule Time Area-->
+
+        <!--Start Team Area-->
+        <div class="team-area pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <span>Our Members</span>
+                    <h2>Training With Our Experts <span class="overlay"></span></h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="single-team-card">
+                            <div class="team-img">
+                                <img src="{% static 'assets/images/team/team-img-1.jpg' %}" alt="Image">
+                                <div class="social-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Norwood Turcotte</h3>
+                                <span>Boxing Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="single-team-card">
+                            <div class="team-img">
+                                <img src="{% static 'assets/images/team/team-img-2.jpg' %}" alt="Image">
+                                <div class="social-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Katherine Schinner</h3>
+                                <span>Kickboxing Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="single-team-card">
+                            <div class="team-img">
+                                <img src="{% static 'assets/images/team/team-img-3.jpg' %}" alt="Image">
+                                <div class="social-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-content">
+                                <h3>Gonzalo Prosacco</h3>
+                                <span>Judo Trainer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Team Area-->
+
+        <!--Start Intro Video Area-->
+        <div class="intro-video-area ptb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="video-btn-content">
+                            <div class="play-btn">
+                                <a href="https://www.youtube.com/watch?v=UdYUXGJei28&list=PLOmkEIc65dtTnMe7ZP0LHexRjosohJXhF&index=25"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                       class="video-link">
+                                       <i class="fab fa-youtube"></i>Watch Video
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="video-content">
+                            <div class="video-title">
+                                <span>Intro Video</span>
+                                <h2>Our Success Stories<span class="overlay"></span></h2>
+                            </div>
+                            <p>Meet Sarah K. - National Swimming Champion and Venture Academy alumna: "The holistic training here gave me not just athletic skills, but mental resilience and nutritional knowledge that propelled me to international competitions.</p>
+                            <ul>
+                                <li><i class="ri-check-double-line"></i>50+ Scholarships Awarded in 3 Years </li>
+                                <li><i class="ri-check-double-line"></i>Partnerships With 15 Schools Nationwide</li>
+                                <li><i class="ri-check-double-line"></i>Community Impact: 500+ Youth Trained Annually  </li>
+                                <li><i class="ri-check-double-line"></i>Global Reach: Alumni Competing in 12 Countries  </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Intro Video Area-->
+
+        <!--Start Portfolio Area-->
+        <div class="portfolio-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <span>Trainers</span>
+                    <h2>Will Help You Completely <span class="overlay"></span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="single-portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="{% static 'assets/images/portfolio/portfolio-img-1.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-content">
+                                <a href=" "><div class="icon">
+                                   <i class="fas fa-swimmer"></i>
+                                </div></a>
+                                <h3>Swimming</h3>
+                                <a class="default-btn active" href="  ">Read More <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="single-portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="{% static 'assets/images/portfolio/portfolio-img-2.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-content">
+                                <a href=" "><div class="icon">
+                                   <i class="fas fa-user-ninja"></i>
+                                </div></a>
+                                <h3>Boxing And Kickboxing</h3>
+                                <a class="default-btn active" href="  ">Read More <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="single-portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="{% static 'assets/images/portfolio/portfolio-img-3.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-content">
+                                <a href=" "><div class="icon">
+                                   <i class="fas fa-music"></i>
+                                </div></a>
+                                <h3>Ballet</h3>
+                                <a class="default-btn active" href=" ">Read More <i class=" fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                        <div class="single-portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="{% static 'assets/images/portfolio/portfolio-img-4.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-content">
+                                <a href=" "><div class="icon">
+                                   <i class="fas fa-music"></i>
+                                </div></a>
+                                <h3>Ballet</h3>
+                                <a class="default-btn active" href=" ">Read More <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
+                        <div class="single-portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="{% static 'assets/images/portfolio/portfolio-img-5.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-content">
+                                <a href=" "><div class="icon">
+                                   <i class="fas fa-chess"></i>
+                                </div></a>
+                                <h3>Chess</h3>
+                                <a class="default-btn active" href=" ">Read More <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200">
+                        <div class="single-portfolio-card">
+                            <div class="portfolio-img">
+                                <img src="{% static 'assets/images/portfolio/portfolio-img-6.jpg' %}" alt="Image">
+                            </div>
+                            <div class="portfolio-content">
+                                <a href=" "><div class="icon">
+                                   <i class="fas fa-futbol"></i>
+                                </div></a>
+                                <h3>Football</h3>
+                                <a class="default-btn active" href=" ">Read More <i class="fas fa-arrow-up"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Portfolio Area-->
+
+        <!--Start Testimonial Area-->
+        <div class="testimonials-area pb-70">
+            <div class="container">
+                <div class="section-title style2">
+                    <span>Success Stories That Inspire</span>
+                    <h2>See stories From Our Students... <span class="overlay"></span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="single-testimonial-box">
+                            <div class="top-content">
+                                <ul class="d-flex justify-content-between">
+                                    <li>
+                                        <div class="quote">
+                                            <i class="fas fa-trophy"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="number">
+                                            <span>01</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p> Venture Academy's football program secured my son a scholarship at a premier sports academy. The professional coaching transformed his raw talent into competitive excellence!</p>
+                            <div class="clients-info">
+                                <h3>Martina Grady</h3>
+                                <span>Football Scholar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="single-testimonial-box">
+                            <div class="top-content">
+                                <ul class="d-flex justify-content-between">
+                                    <li>
+                                        <div class="quote">
+                                            <i class="fas fa-chess"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="number">
+                                            <span>02</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>The chess program didn't just teach strategy - it boosted my academic performance. I went from average to top 5% in my class within a year!</p>
+                            <div class="clients-info">
+                                <h3>Weldon Hegmann</h3>
+                                <span> National Junior Chess Champion, Age 15</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="single-testimonial-box">
+                            <div class="top-content">
+                                <ul class="d-flex justify-content-between">
+                                    <li>
+                                        <div class="quote">
+                                            <i class="fas fa-water"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="number">
+                                            <span>03</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>As a swimming coach, I've seen incredible growth. Our athletes now compete internationally thanks to the Olympic-standard facilities and expert training.</p>
+                            <div class="clients-info">
+                                <h3>Frederick Kling</h3>
+                                <span> Head of Aquatic Programs </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                        <div class="single-testimonial-box">
+                            <div class="top-content">
+                                <ul class="d-flex justify-content-between">
+                                    <li>
+                                        <div class="quote">
+                                            <i class="fas fa-medal"></i>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="number">
+                                            <span>04</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p> Venture Academy's ballet program opened doors to international competitions. The holistic training improved my artistry, discipline, and confidence!</p>
+                            <div class="clients-info">
+                                <h3>Vivian Durgan</h3>
+                                <span>  Regional Ballet Gold Medalist </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Testimonial Area-->
+
+        <!--Start Blog Area-->
+  
+
+        <!--End Blog Area-->
+
+        <!--Start Footer Area-->
+        <div class="footer-area bg-1 pt-100">
+            <div class="container">
+                <div class="footer-content pb-50">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget contact-info">
+                                <h3>Contact With Us</h3>
+                                <ul>
+                                    <li>
+                                        <span>Address</span>
+                                        <p>LakeWood Vantage School,
+                                            Kamakis</p>
+                                    </li>
+                                    <li>
+                                        <span>Call Us</span>
+                                        <a href="+254 102881146"> +254 102881146</a>
+                                    </li>
+                                    <li>
+                                        <span>Mail Us</span>
+                                        <a href=" ">I will Put the Venture Academy Email</a>
+                                    </li>
+                                </ul>
+                                <div class="social-content">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://instagram.com/?lang=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://linkedin.com/?lang=en" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget quick-links">
+                                <h3>Quick Links</h3>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <ul>
+                                            <li>
+                                                <a href="{% url 'index' %}">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'about-us' %}">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'faq' %}">FAQ's</a>
+                                            </li>
+                                          
+                                         
+                                           
+                                            <li>
+                                                <a href="{% url 'team' %}">Meet Our Team</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul>
+                                           
+                                        
+                                            <li>
+                                                <a href="{% url 'contact' %}">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="{% url 'testimonials' %}">Success Stories</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Enrol Now</a>
+                                            </li>
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="single-footer-widget subscribe">
+                                <h3>Enroll Now</h3>
+                                <span>Get Us In The Inbox And Get The Best Implementation!</span>
+                                <p> mmmmmmmmmm</p>
+    
+                                <div class="subscribe-form">
+                                    <form class="newsletter-form" data-toggle="validator">
+                                        <input type="email" class="form-control" placeholder="Enter your email or password" name="EMAIL" required autocomplete="off">
+                            
+                                        <button class="default-btn active" type="submit">
+                                            Enroll Now <i class="ri-arrow-right-line"></i>
+                                        </button>
+                            
+                                        <div id="validator-newsletter" class="form-result"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <p>© <span>Venture</span> is Proudly Owned by <a href="  " target="_blank">Venture Academy</a></p>
+                </div>
+            </div>
+        </div>
+        <!--End Footer Area-->
+
+        <!-- Start Go Top Area -->
+        <div class="go-top">
+            <i class="fas fa-arrow-up"></i>
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <!-- End Go Top Area -->
+
+
+        <!-- Jquery js -->
+        <script data-cfasync="false" src="{% static '/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script><script src="{% static 'assets/js/jquery.min.js' %}"></script>
+        <!-- Bootstrap bundle js -->
+        <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+        <!-- Meanmenu js -->
+        <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
+        <!-- Owl Carosel js -->
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+        <!-- Owl Carosel Thumbs js -->
+        <script src="{% static 'assets/js/carousel-thumbs.min.js' %}"></script>
+        <!-- Magnific popup js -->
+        <script src="{% static 'assets/js/jquery.magnific-popup.js' %}"></script>
+        
+        <!-- Aos js -->
+        <script src="{% static 'assets/js/aos.js' %}"></script>
+        <!-- Mixitup js -->
+        <script src="{% static 'assets/js/mixitup.min.js' %}"></script>
+        <!-- Scrollmagic js -->
+        <script src="{% static 'assets/js/scrollmagic.min.js' %}"></script>
+        <!-- Gsap js -->
+        <script src="{% static 'assets/js/animation.gsap.min.js' %}"></script>
+        <!-- Debug js -->
+        <script src="{% static 'assets/js/debug.addIndicators.min.js' %}"></script>
+        <!-- Tweenmax js -->
+        <script src="{% static 'assets/js/tweenmax.min.js' %}"></script>
+        <!--Progresscircle-->
+        <script src="{% static 'assets/js/progresscircle.min.js' %}"></script>
+        <!-- Odometer js -->    
+        <script src="{% static 'assets/js/odometer.min.js' %}"></script>
+        <!--Progresscircle-->
+        <link rel="stylesheet" href="{% static 'assets/css/progresscircle.min.css' %}">
+        <!-- Appear js -->  
+        <script src="{% static 'assets/js/appear.min.js' %}"></script> 
+        <!-- Form Validator js -->    
+        <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+        <!-- Contact Form Script js -->    
+        <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+        <!-- Ajaxchimp js -->    
+        <script src="{% static 'assets/js/ajaxchimp.min.js' %}"></script>
+        <!--Custom js-->
+        <script src="{% static 'assets/js/custom.js' %}"></script>
+        
+    </body>
+</html>
