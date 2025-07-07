@@ -1,15 +1,19 @@
-
 {
-  "builds": [{
-    "src": "backend/backend/wsgi.py",
-    "use": "@vercel/python",
-    "config": {
-      "runtime": "python3.11",
-      "maxLambdaSize": "50mb",
-      "installCommand": "pip install -r requirements.txt"
+  "builds": [
+    {
+      "src": "manage.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.11",
+        "maxLambdaSize": "50mb",
+        "installCommand": "pip install -r requirements.txt"
+      }
     }
-  }],
+  ],
   "routes": [
-    { "src": "/(.*)", "dest": "backend/wsgi.py" }
+    {
+      "src": "/(.*)",
+      "dest": "backend/wsgi.py"
+    }
   ]
 }
