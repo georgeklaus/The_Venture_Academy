@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?4f7700d6618cd0ef11fa9dc7cf3a6fc7") format("truetype"),
+    url("../fonts/flaticon.woff?4f7700d6618cd0ef11fa9dc7cf3a6fc7") format("woff"),
+    url("../fonts/flaticon.woff2?4f7700d6618cd0ef11fa9dc7cf3a6fc7") format("woff2"),
+    url("../fonts/flaticon.eot?4f7700d6618cd0ef11fa9dc7cf3a6fc7#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon.svg?4f7700d6618cd0ef11fa9dc7cf3a6fc7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-boxing-gloves:before {
+    content: "\f101";
+}
+.flaticon-trophy:before {
+    content: "\f102";
+}
+.flaticon-instagram:before {
+    content: "\f103";
+}
+.flaticon-check:before {
+    content: "\f104";
+}
+.flaticon-star:before {
+    content: "\f105";
+}
+.flaticon-lotus-position:before {
+    content: "\f106";
+}
+.flaticon-weightlifter:before {
+    content: "\f107";
+}
+.flaticon-boxer:before {
+    content: "\f108";
+}
+.flaticon-witness:before {
+    content: "\f109";
+}
+.flaticon-globe:before {
+    content: "\f10a";
+}
+.flaticon-treadmill:before {
+    content: "\f10b";
+}
+.flaticon-boxing:before {
+    content: "\f10c";
+}
+.flaticon-goal:before {
+    content: "\f10d";
+}
+.flaticon-star-1:before {
+    content: "\f10e";
+}
+.flaticon-close:before {
+    content: "\f10f";
+}
+.flaticon-sun:before {
+    content: "\f110";
+}
+.flaticon-facebook:before {
+    content: "\f111";
+}
+.flaticon-linkedin:before {
+    content: "\f112";
+}
+.flaticon-judo:before {
+    content: "\f113";
+}
+.flaticon-taekwondo:before {
+    content: "\f114";
+}
+.flaticon-bodybuilding:before {
+    content: "\f115";
+}
+.flaticon-boxing-gloves-1:before {
+    content: "\f116";
+}
+.flaticon-boxing-1:before {
+    content: "\f117";
+}
+.flaticon-fast-forward:before {
+    content: "\f118";
+}
+.flaticon-crescent-moon-phase-shape-with-two-stars:before {
+    content: "\f119";
+}
+.flaticon-phone-call:before {
+    content: "\f11a";
+}
+.flaticon-search:before {
+    content: "\f11b";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f11c";
+}
+.flaticon-like:before {
+    content: "\f11d";
+}
+.flaticon-left-arrow:before {
+    content: "\f11e";
+}
+.flaticon-right-arrow:before {
+    content: "\f11f";
+}
+.flaticon-placeholder:before {
+    content: "\f120";
+}
+.flaticon-view:before {
+    content: "\f121";
+}
+.flaticon-martial-arts-couple-fight:before {
+    content: "\f122";
+}
+.flaticon-twitter:before {
+    content: "\f123";
+}
+.flaticon-calendar:before {
+    content: "\f124";
+}
+.flaticon-swords:before {
+    content: "\f125";
+}
+.flaticon-martial-arts:before {
+    content: "\f126";
+}
+.flaticon-martial-arts-1:before {
+    content: "\f127";
+}
+.flaticon-share:before {
+    content: "\f128";
+}
+.flaticon-clock:before {
+    content: "\f129";
+}
+.flaticon-user:before {
+    content: "\f12a";
+}
+.flaticon-delete:before {
+    content: "\f12b";
+}
+.flaticon-boxing-gloves-2:before {
+    content: "\f12c";
+}
