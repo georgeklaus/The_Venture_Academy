@@ -1,2 +1,17 @@
-python311.tar.gz
+# .vercelignore
+
+# Ignore Python virtualenvs or build artifacts
+.venv/
+python311/
 yay/
+python311.tar.gz
+
+# Ignore your local Node/Vercel metadata
+.verce l/
+node_modules/
+
+# Ignore all static assets (we’ll serve them separately)
+
+# (Optional) If you have other big directories:
+MEDIA/
+uploads/
