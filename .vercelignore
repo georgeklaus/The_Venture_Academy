@@ -1,18 +1,24 @@
 # .vercelignore
 
-# Ignore Python virtualenvs or build artifacts
+# Ignore the Python venv entirely
 .venv/
 venv/
-python311/
-yay/
-python311.tar.gz
 
-# Ignore your local Node/Vercel metadata
+# Ignore any other build or archive files
+python311/
+python311.tar.gz
+yay/
+
+# Ignore Node/Vercel metadata
 .vercel/
 node_modules/
 
-# Ignore all static assets (we’ll serve them separately)
+# Ignore Django static directories (we’ll serve staticfiles/ separately)
+static/
+core/
+templates/
+backend/static/
 
-# (Optional) If you have other big directories:
-MEDIA/
-uploads/
+# Ignore Python cache
+__pycache__/
+*.pyc
