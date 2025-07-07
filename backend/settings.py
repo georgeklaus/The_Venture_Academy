@@ -13,7 +13,6 @@ import os
 from pathlib import Path
 
 DEBUG = False
-
 ALLOWED_HOSTS = [
     '.vercel.app',   # Allows all Vercel subdomains
     '127.0.0.1',  # For local development
