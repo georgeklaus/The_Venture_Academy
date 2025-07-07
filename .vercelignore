@@ -2,12 +2,13 @@
 
 # Ignore Python virtualenvs or build artifacts
 .venv/
+venv/
 python311/
 yay/
 python311.tar.gz
 
 # Ignore your local Node/Vercel metadata
-.verce l/
+.vercel/
 node_modules/
 
 # Ignore all static assets (we’ll serve them separately)
